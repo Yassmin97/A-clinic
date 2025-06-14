@@ -1,14 +1,31 @@
+import React from "react";
+
 const Home = () => {
-    return(
-        <div className="p-8 text-center">
-            <h2 className="text-3xl font-semibold mb-4">Välkommen till A Clinic</h2>
-            <p className="mb-6">Vi erbjuder professionella behandlingar för din hälsa och skönhet</p>
-            <a href="https://www.bokadirekt.se/places/a-clinic-60706"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-500 text-white px-4 py-2 rounded"
-                >Boka Tid</a>
+    return (
+        <div className="w-full h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/salong.jpeg')" }}>
+            <div className="bg-black/30 w-full px-15 py-32 md:py-90">
+                
+                {/* Text left */}
+                <div className="flex-1 text-left">
+                    <h2 className="text-white text-5xl font-bold mb-6">Välkommen till A Clinic</h2>
+                    <p className="mb-8 text-white text-2xl max-w-md">
+                        Vi erbjuder professionella behandlingar för din hälsa och skönhet
+                    </p>
+                    <a
+                        href="https://www.bokadirekt.se/places/a-clinic-60706"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-[#1b6080] text-white px-6 py-3 rounded font-semibold hover:bg-[#155066]"
+                    >
+                        Boka Tid
+                    </a>
+                </div>
+
+                {/* Right: Image */}
+              
+            </div>
         </div>
-    )
-}
+    );
+};
+
 export default Home;

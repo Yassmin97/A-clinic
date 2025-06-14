@@ -1,9 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Lägg till grundläggande body-styling */
-body {
-  @apply bg-white text-black;
-  font-family: 'sans-serif';
-}
+@import "tailwindcss";

@@ -24,7 +24,7 @@ const About = () => {
         </div>
         
         <div className="flex justify-center">
-          <img src="about.png" alt="" className="w-full h-auto rounded-lg shadow-lg max-w-sm"/>
+          <img src="/Alexandra.jpeg" alt="" className="rounded-lg shadow w-full h-auto object-cover"/>
         </div>
       </div>
       

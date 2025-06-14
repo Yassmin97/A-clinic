@@ -1,9 +1,9 @@
-const Behandling = () => {
+const Footer = () => {
   return (
-    <div className="bg-gray-100 text-center p-4">
+    <footer className="bg-gray-100 text-center p-4">
       <p>&copy; {new Date().getFullYear()} A Clinic. All rights reserved.</p>
-    </div>
+    </footer>
   );
 };
 
-export default Behandling;
+export default Footer;
