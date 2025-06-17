@@ -1,6 +1,20 @@
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 const About = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if(location.hash === "#info"){
+      const section = document.getElementById("top-about");
+      if(section) {
+        section.scrollIntoView({ behavior: "smooth"});
+      }
+    }
+  }, [location]);
+
   return (
-    <div className="p-8 pt-24 bg-white text-gray-800">
+    <div id="top-about" className="p-8 pt-24 bg-white text-gray-800">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 item-center">
         <div>
           <h2 className="text-3xl font-bold mb-4">Om A Clinic</h2>
@@ -27,8 +41,8 @@ const About = () => {
           <img src="/Alexandra.jpeg" alt="" className="rounded-lg shadow w-full h-auto object-cover"/>
         </div>
       </div>
-      
-    </div>
+      </div>
+    
   );
 };
 

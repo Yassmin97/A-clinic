@@ -1,9 +1,21 @@
-import React from "react";
 import { FiMapPin, FiMail, FiPhone, FiInstagram, FiClock } from "react-icons/fi";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Contact = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if(location.hash === "#info"){
+      const section = document.getElementById("top-contact");
+      if(section) {
+        section.scrollIntoView({ behavior: "smooth"});
+      }
+    }
+  }, [location]);
+
   return (
-    <div className="max-w-6xl mx-auto px-4 py-20 mt-20 mb-20 rounded-2xl bg-gray-50 text-gray-800">
+    <div id="top-contact" className="max-w-6xl mx-auto px-4 py-20 mt-20 mb-20 rounded-2xl bg-gray-50 text-gray-800">
       <h1 className="text-4xl font-bold mb-10 text-center">Kontakta Oss</h1>
 
       <div className="grid md:grid-cols-2 gap-12">
