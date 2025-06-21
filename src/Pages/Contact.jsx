@@ -47,7 +47,12 @@ const Contact = () => {
         <div className="space-y-4 text-base">
           <p className="flex items-center gap-2">
             <FiMapPin className="text-xl text-[#4287f5]" />
-              Ostindiefararen 49, 417 65 Göteborg
+            <a
+            href="https://www.google.com/maps/place/Ostindiefararen+49,+417+17+Göteborg"
+            target="_blank"
+            rel="noopener noreferrer">
+             Ostindiefararen 49, 417 17 Göteborg
+            </a>
       </p>
           <p className="flex items-center gap-2">
            <FiMail className="text-xl text-[#4287f5]" />

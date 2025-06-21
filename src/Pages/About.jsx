@@ -19,8 +19,8 @@ const About = () => {
         <div>
           <h2 className="text-3xl font-bold mb-4">Om A Clinic</h2>
           <p className="mb-4">
-            På vackra Eriksberg i Göteborg hittar du <strong className="text-[#4287f5]">A Clinic</strong>, en personlig skönhetssalong där kvalitet,
-            trygghet och kundnöjdhet alltid står i fokus. Jag som driver salongen heter <strong className="text-[#4287f5]">Alexandra</strong> och har
+            På vackra Eriksberg i Göteborg hittar du <strong>A Clinic</strong>, en personlig skönhetssalong där kvalitet,
+            trygghet och kundnöjdhet alltid står i fokus. Jag som driver salongen heter <strong>Alexandra</strong> och har
             arbetat inom skönhetsbranschen sedan 2020.</p>
             <p className="mb-4">
             Med flera års erfarenhet och ett brinnande intresse för hud och skönhet erbjuder jag behandlingar som är både
@@ -34,7 +34,7 @@ const About = () => {
             <p className="mb-4">
             Hos mig är du i trygga händer – varje behandling anpassas efter just dina behov och önskemål.    
             </p>
-            <p className="font-semibold italic text-[#4287f5]">Så om du söker en trygg och professionell behandlare i en lugn och personlig miljö – varmt välkommen till A Clinic!<br />/ Alexandra</p>
+            <p className="font-semibold italic">Så om du söker en trygg och professionell behandlare i en lugn och personlig miljö – varmt välkommen till A Clinic!<br />/ Alexandra</p>
         </div>
         
         <div className="flex justify-center">
