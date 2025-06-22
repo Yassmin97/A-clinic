@@ -63,7 +63,9 @@ const Home = () => {
             </div>
         </div>
 
-        <section className="bg-fixed bg-center bg-cover text-white text-center py-32 px-4" style={{backgroundImage: "url('/micro2.jpeg')"}}>
+        <section className="bg-fixed relative bg-center bg-cover text-white text-center py-32 px-4" style={{backgroundImage: "url('/micro2.jpeg')"}}>
+          <div className="absolute inset-0 bg-black/50 z-0" />
+          <div className="relative z-10">
         <h2 className="text-5xl font-bold mb-4 text-white">BOKA IDAG</h2>
         <p className="text-lg mb-4 font-semibold">Vill du boka en behandling eller har en fråga?</p>
         <p className="text-lg mb-8 font-semibold">Ring in till oss eller Boka direkt</p>
@@ -79,7 +81,7 @@ const Home = () => {
                 Boka Direkt <span>&raquo;</span>
             </a>
         </div>
-        
+      </div>
         </section>
         <Reviews />
        

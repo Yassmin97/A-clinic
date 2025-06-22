@@ -7,10 +7,10 @@ const Footer = () => {
         <div>
           <h3 className='font-semibold text-lg mb-2'>A Clinic</h3>
           <ul className='space-y-1'>
-            <li><a href="#" className='hover:text-[#4287f5]'>Hem</a></li>
-            <li><a href="#" className='hover:text-[#4287f5]'>Behandling</a></li>
-            <li><a href="#" className='hover:text-[#4287f5]'>Om oss</a></li>
-            <li><a href="#" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
+            <li><a href="/" className='hover:text-[#4287f5]'>Hem</a></li>
+            <li><a href="/Behandling" className='hover:text-[#4287f5]'>Behandling</a></li>
+            <li><a href="/About" className='hover:text-[#4287f5]'>Om oss</a></li>
+            <li><a href="/Contact" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
           </ul>
         </div>
 

@@ -67,7 +67,7 @@ const reviews = [
 const Reviews = () => {
   return (
     <div className="py-16 px-6 bg-white">
-      <h2 className="text-3xl font-bold text-center mb-10 text-black">Vad Våra Kunder Säger</h2>
+      <h2 className="text-3xl font-bold text-center mb-10 text-black">Vad våra kunder säger</h2>
       
       <div className="flex overflow-x-auto space-x-6 pb-4 no-scrollbar">
         {reviews.map((review, index) => (
