@@ -32,21 +32,21 @@ const Home = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
 
-            <Link to="/behandlingar" className="block">
+            <Link to="/Behandling" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">
                     <img src="/kund2.jpeg" alt="Microneedling" className="w-full h-65 object-cover rounded mb-4" />
                     <h4 className="text-xl font-semibold mb-2">Microneedling</h4>
                     <p className="text-sm"> Stimulerar hudens kollagenproduktion för en jämnare, fastare hud.</p>
                 </div></Link>
 
-            <Link to="/behandlingar" className="block">
+            <Link to="/Behandling" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">
                     <img src="/micro2.jpeg" alt="BB Glow" className="w-full h-65 object-cover object-bottom rounded mb-4" />
                     <h4 className="text-xl font-semibold mb-2">BB Glow</h4>
                     <p className="text-sm">Ger huden en jämn och strålande ton med naturligt glow.</p>
                 </div></Link>
 
-            <Link to="/behandlingar" className="block">
+            <Link to="/Behandling" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">
                     <img src="/lashlift2.jpeg" alt="Lashlift" className="w-full h-65 object-cover object-bottom rounded mb-4" />
                     <h4 className="text-xl font-semibold mb-2">Lashlift</h4>
@@ -54,7 +54,7 @@ const Home = () => {
                 </div></Link>
 
 
-            <Link to="/behandlingar" className="block">
+            <Link to="/Behandling" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">
                     <img src="/browlift.jpeg" alt="Browlift" className="w-full h-65 object-cover rounded mb-4" />
                     <h4 className="text-xl font-semibold mb-2">Browlift</h4>
