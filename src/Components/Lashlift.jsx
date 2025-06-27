@@ -18,7 +18,7 @@ const Lashlift = () => {
     
 <div className="max-w-7xl mx-auto px-4 mt-25">
     <div className="bg-gray-100 shadow-lg rounded-lg p-6 md:p-8  md:px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-      <div className="w-full md:w-[100%] mt-10">
+      <div className="w-full mt-10">
       <h2 className="font-semibold text-lg mb-4">Hur går behandlingen till?</h2>
       <p className="mb-6">
       Lashlift är en skonsam behandling som lyfter och böjer dina egna naturliga fransar från roten, vilket ger intrycket av längre, fylligare och mer definierade fransar – helt utan fransförlängning. Behandlingen passar alla som vill framhäva sina ögon och slippa använda fransböjare eller mascara varje dag.
@@ -37,9 +37,9 @@ const Lashlift = () => {
 </div>
     </div>
 
-    <div className="rounded overflow-hidden pl-20 mt-10">
-        <img src="/lashlift2.jpeg" alt="lashlift" className="rounded-lg shadow-md w-110 h-auto" />
-            <a href="/https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-40 mt-10">
+    <div className="rounded overflow-hidden pl-40 mt-10">
+        <img src="/lashlift2.jpeg" alt="lashlift" className="rounded-lg shadow-md w-80 h-auto" />
+            <a href="/https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-25 mt-10">
         Boka Nu
         </a>
     </div>

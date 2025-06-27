@@ -25,7 +25,7 @@ const BBGlow = () => {
       <p>Under behandlingen används en microneedling-penna för att föra in BB Glow-serumet ytligt i huden. Behandlingen är ytlig och nästintill smärtfri. Hudtonen anpassas efter kundens egen nyans för ett naturligt resultat.
 </p>
 
-      <h3 className="font-semibold text-lg mb-2">Att tänka på efter behandlingen:</h3>
+      <h3 className="font-semibold text-lg mb-2 mt-8">Att tänka på efter behandlingen:</h3>
       <ul className="list-disc ml-5 mb-4 space-y-1">
         <li>Huden kan vara lätt rodnad och känslig det första dygnet.</li>
         <li>Undvik smink, bastu, träning och solexponering i minst 24–48 timmar.</li>

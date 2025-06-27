@@ -9,8 +9,9 @@ const Navbar = () => {
     return (
         <nav className="bg-white text-[#012840] z-50 text-xl px-6 py-4 shadow-lg flex justify-between items-center" >
       {/* logo */}
+      <a href="/">
         <img src="/logo.png" alt="A Clinic Logo" className="h-13 w-13 object-contain" />
-
+</a>
             <div className="space-x-8 flex items-center relative">
                 <Link to="/" className="hover:text-[#4287f5] font-semibold">Hem</Link>
 
