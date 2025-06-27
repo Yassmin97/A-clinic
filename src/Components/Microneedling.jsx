@@ -52,7 +52,7 @@ Microneedling är en avancerad hudföryngrande behandling som stimulerar hudens 
 
     <div className="rounded overflow-hidden pl-20">
         <img src="/micro6.jpeg" alt="micro6" className="rounded-lg shadow-md w-90 h-auto mt-20" />
-            <a href="/https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-30 mt-10">
+            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-30 mt-10">
         Boka Nu
         </a>
     </div>

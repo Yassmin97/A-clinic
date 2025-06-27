@@ -39,7 +39,7 @@ const Lashlift = () => {
 
     <div className="rounded overflow-hidden pl-40 mt-10">
         <img src="/lashlift2.jpeg" alt="lashlift" className="rounded-lg shadow-md w-80 h-auto" />
-            <a href="/https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-25 mt-10">
+            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-25 mt-10">
         Boka Nu
         </a>
     </div>
