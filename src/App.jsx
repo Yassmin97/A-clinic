@@ -5,6 +5,11 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Microneedling from './Components/Microneedling';
+import BBGlow from './Components/BBGlow';
+import LashLift from './Components/Lashlift';
+import BrowLift from './Components/Browlift';
+
 
 function App() {
 
@@ -18,6 +23,10 @@ function App() {
             <Route path='/Behandling' element={<Behandling />}/>
             <Route path='/About' element={<About />}/>
             <Route path='/Contact' element={<Contact />}/>
+            <Route path='/Behandling/Microneedling' element ={<Microneedling />} />
+            <Route path='/Behandling/BB Glow' element ={<BBGlow />} />
+            <Route path='/Behandling/Lashlift' element ={<LashLift />} />
+            <Route path='/Behandling/Browlift' element ={<BrowLift />} /> 
           </Routes>
         </div>
         <Footer/>

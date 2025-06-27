@@ -24,43 +24,6 @@ const BehandlingBox = ({ title, text, time, imgSrc, reverse }) => (
   </div>
 )
 
-const ComboBox = () => (
-  <section
-  className="bg-fixed bg-cover bg-center text-white text-left py-32 px-4"
-  style={{ 
-    backgroundImage: "url('/micro2.jpeg')",
-    width: "100vw",
-    marginLeft: "calc(-50vw + 50%)", }}
-  >
-    <div className="bg-black/50 rounded-2xl p-6 sm:p-10 max-4-4xl mx-auto">
-    <h3 className="text-xl sm:text-2xl font-bold mb-4">Varför kombinera Microneedling och BB Glow?</h3>
-    <div className="text-sm sm:text-base space-y-4 leading-relaxed">
-      <p>Att kombinera traditionell microneedling med BB Glow-behandling är ett effektivt sätt att både förbättra hudens struktur och ge en jämnare hudton med naturlig lyster.      </p>
-    
-    <h4 className="text-lg font-semibold">Fördelar med kombinationsbehandlingen:</h4>
-    <ul className="list-disc list-inside space-y-2">
-      <li>
-          <strong>Hudförbättring på djupet:</strong> Microneedling stimulerar hudens egen produktion av kollagen och elastin, vilket stärker huden, minskar porer, fina linjer och ärr.
-      </li>
-      <li>
-          <strong>Omedelbar glow-effekt:</strong> BB Glow tillför lätta pigment, vitaminer och näring som jämnar ut hudtonen och ger ett naturligt, strålande resultat.
-      </li>
-      <li>
-          <strong>Bättre produktupptag:</strong> Microneedling skapar mikroskopiska kanaler i huden, vilket gör att BB Glow-serumet absorberas mer effektivt och ger ett mer långvarigt resultat.
-      </li>
-      <li>
-          <strong>Dubbel effekt – inifrån och ut:</strong> Microneedling jobbar på hudens djupare lager medan BB Glow ger en kosmetisk förbättring på ytan. Tillsammans ger de både långsiktig hudhälsa och direkt visuell förbättring.
-      </li>
-      <li>Denna kombination är perfekt för dig som vill arbeta med hudens kvalitet på flera nivåer – både förbättra, förstärka och försköna – i en och samma behandling.</li>
-    </ul>
-
-    <p>Behandlingstid: 80 minuter.</p>
-
-    </div>
-</div>
-</section>
-);
-
 
 const Behandling = () => {
   return (
@@ -90,7 +53,7 @@ const Behandling = () => {
 
         <BehandlingBox
           title="Microneedling + Kemisk Peeling"
-          imgSrc="/micro2.jpeg"
+          imgSrc="/micro.jpeg"
           time="45 minuter"
           text={
             <>
@@ -102,7 +65,6 @@ const Behandling = () => {
 
             <h3 className="text-lg font-semibold mb-2">Att tänka på före behandlingen:</h3>
             <ul className="list-disc list-inside mb-4">
-              <li>Kom gärna till salongen med ren</li>
               <li>Undvik solning och brun-utan-sol i minst 48 timmar före behandling.</li>
               <li>Du bör inte ha några aktiva hudinfektioner, öppna sår, feberblåsor eller inflammerad acne i det område som ska behandlas. (Behandlingen kan genomföras även om du har enstaka finnar) </li>
             </ul>
@@ -124,7 +86,7 @@ const Behandling = () => {
 
         <BehandlingBox
           title="BB Glow"
-          imgSrc="/kund2.jpeg"
+          imgSrc="/bb.glow.jpeg"
           time="45 minuter"
           text={
             <>
@@ -154,7 +116,7 @@ const Behandling = () => {
 
         <BehandlingBox
           title="Lashlift"
-          imgSrc="/lash.browlift.jpeg"
+          imgSrc="/lashlift3.jpeg"
           time="45 minuter"
           text={
             <>

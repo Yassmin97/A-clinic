@@ -20,6 +20,10 @@ const Contact = () => {
 
       <div className="grid md:grid-cols-2 gap-12">
         {/* Contact Form */}
+         <div>
+        <p className="text-lg font-semibold mb-4">
+           Har du frågor eller funderingar? Tveka inte att höra av dig!
+        </p>
         <form className="space-y-6 bg-white p-6 rounded shadow">
           <div>
             <label className="block font-bold pb-2">Namn</label>
@@ -40,7 +44,7 @@ const Contact = () => {
             Skicka
           </button>
         </form>
-
+</div>
         {/* Info + Map */}
         {/* Contact Info & Map */}
         <div className="w-full h-auto space-y-6">
