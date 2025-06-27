@@ -10,7 +10,7 @@ const Lashlift = () => {
       <h1 className="text-4xl md:text-5xl font-bold pt-17 text-white mb-6">Lashlift</h1>
       <h4 className="text-2xl md:text-2xl font-bold  text-white mb-6">Böjda fransar med naturligt lyft</h4>
 
-    <a href="/https://www.bokadirekt.se/places/a-clinic-60706" className="mt-6 inline-block bg-white text-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition">
+    <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="mt-6 inline-block bg-white text-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition">
         Boka Nu
         </a>
     </div>
