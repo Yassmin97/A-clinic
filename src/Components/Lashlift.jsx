@@ -49,7 +49,7 @@ const Lashlift = () => {
     <div className="mt-16 px-6">
         <h2 className="text-2xl font-semibold mb-4 text-center mt-30">Fler bilder från behandlingen</h2>
         <div className="flex overflow-x-auto space-x-4 pb-4 mb-30 mt-15">
-          <img src="/lashlift.png" alt="lashlift" className="rounded-lg shadow w-100 h-auto flex-shrink-0" />
+          <img src="/lashlift.jpeg" alt="lashlift" className="rounded-lg shadow w-100 h-auto flex-shrink-0" />
           <img src="/lashlift3.jpeg" alt="lashlift" className="rounded-lg shadow w-100 h-auto flex-shrink-0" />
           <img src="/lashlift4.png" alt="lashlift" className="rounded-lg shadow w-90 h-auto flex-shrink-0" />
         </div>

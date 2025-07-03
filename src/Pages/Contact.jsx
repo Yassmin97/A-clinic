@@ -15,18 +15,18 @@ const Contact = () => {
   }, [location]);
 
   return (
-    <div id="top-contact" className="max-w-6xl mx-auto px-4 py-20 mt-20 mb-20 rounded-2xl bg-gray-50 text-gray-800">
-      <h1 className="text-4xl font-bold mb-10 text-center">Kontakta Oss</h1>
+    <div id="top-contact" className="max-w-6xl mx-auto px-4 sm:px-6 py-20 mt-20 mb-20 rounded-2xl bg-gray-100 text-gray-800">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-10 text-center">Kontakta Oss</h1>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Contact Form */}
          <div>
-        <p className="text-lg font-semibold mb-4">
+        <p className="text-base sm:text-lg font-semibold mb-4 sm:ml-3">
            Har du frågor eller funderingar? Tveka inte att höra av dig!
         </p>
-        <form className="space-y-6 bg-white p-6 rounded shadow">
+        <form className="space-y-6 bg-white p-6 sm:p-6 rounded shadow">
           <div>
-            <label className="block font-bold pb-2">Namn</label>
+            <label className="block font-bold pb-1 sm:pb-2">Namn</label>
             <input type="text" className="w-full border border-gray-300 rounded px-4 py-2" required />
           </div>
           <div>
@@ -39,7 +39,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-[#4287f5] text-white px-6 py-3 rounded font-semibold hover:bg-[#012840]"
+            className="bg-[#4287f5] text-white px-6 py-3 rounded font-semibold hover:bg-[#012840] sm:w-auto"
           >
             Skicka
           </button>
@@ -48,7 +48,7 @@ const Contact = () => {
         {/* Info + Map */}
         {/* Contact Info & Map */}
         <div className="w-full h-auto space-y-6">
-        <div className="space-y-4 text-base">
+        <div className="space-y-4 sm:text-base text-sm">
           <p className="flex items-center gap-2">
             <FiMapPin className="text-xl text-[#4287f5]" />
             <a
@@ -79,7 +79,7 @@ const Contact = () => {
   <iframe
     title="A Clinic Location"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2132.3841761457865!2d11.91861721575523!3d57.70759418110392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff3a6e0982ebf%3A0x1d8b69d1977748b4!2sOstindiefararen%2049%2C%20417%2065%20G%C3%B6teborg!5e0!3m2!1sen!2sse!4v1717600000000!5m2!1sen!2sse"    width="100%"
-    height="320"
+    height="280"
     allowFullScreen=""
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"

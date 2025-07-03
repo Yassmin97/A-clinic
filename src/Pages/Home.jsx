@@ -6,31 +6,35 @@ import Reviews from '../Components/Reviews';
 const Home = () => {
     return (
          <>
-        <div className="w-full aspect-[3/1] bg-cover bg-[center_top_80%] bg-no-repeat" style={{ backgroundImage: "url('/salong-bg.jpeg')" }}>
-            <div className="bg-black/45 w-full px-20 py-32 md:py-40">
-                
-                {/* Text left */}
-                <div className="flex-1 text-left pl-16 md:pl-24">
-                    <h2 className="text-white text-6xl font-bold mb-6">Välkommen till A Clinic</h2>
-                    <p className="mb-8 text-white text-3xl max-w-md">
-                        Vi erbjuder professionella behandlingar för din hälsa och skönhet
-                    </p>
-                    <a
-                        href="https://www.bokadirekt.se/places/a-clinic-60706"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white bg-[#4287f5] text-xl px-6 py-4 rounded font-bold hover:bg-[#c5c5c5]"
-                    >
-                        Boka Tid
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div className="w-full aspect-[3/1] bg-cover bg-[center_top_80%] bg-no-repeat" style={{ backgroundImage: "url('/salong-bg.jpeg')" }}>
+    <div className="bg-black/45 w-full h-138 px-20 md:px-20 py-32 md:py-40">
+  
+      
+      {/* Text */}
+      <div className="flex-1 text-left md:text-left px-1 sm:px-8 md:pl-16">
+        <h2 className="text-white text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+          Välkommen till A Clinic
+        </h2>
+        <p className="mb-8 text-white sm:text-base md:text-2xl">
+          Vi erbjuder professionella behandlingar för din hälsa och skönhet
+        </p>
+        <a
+          href="https://www.bokadirekt.se/places/a-clinic-60706"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white bg-[#4287f5] text-base sm:text-lg md:text-xl px-6 py-3 rounded font-bold hover:bg-[#c5c5c5]"
+        >
+          Boka Tid
+        </a>
+      </div>
+
+    </div>
+  </div>
 
         <div className="py-20 px-8 bg-white text-gray-800">
             <h3 className="text-4xl font-bold text-center mb-12">Våra Behandlingar</h3>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+            <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
 
             <Link to="/Behandling/Microneedling" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">

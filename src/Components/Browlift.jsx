@@ -4,9 +4,11 @@ import { FaClock } from "react-icons/fa";
 const Browlift = () => {
   return (
     <div>
-    <div className="w-full h-138 bg-cover bg-[center_top_78%] bg-no-repeat" style={{backgroundImage: `url('/.jpeg')`}}>
+    <div className="w-352 h-138 bg-right bg-no-repeat" style={{backgroundImage: `url('/Browlift2.jpeg')`}}>
+      <div className="w-180 h-138 bg-[center_top_50%] bg-lift bg-no-repeat" style={{backgroundImage: `url('/browlift.jpeg')`}}>
+
         
-    <div className="bg-black/35 w-full h-138 px-30 py-34 md:py-40">
+    <div className="bg-black/35 w-352 h-138 px-30 py-34 md:py-40">
       <h1 className="text-4xl md:text-5xl font-bold pt-17 text-white mb-6">Browlift</h1>
       <h4 className="text-2xl md:text-2xl font-bold  text-white mb-6">Formade och fylligare bryn</h4>
 
@@ -14,7 +16,7 @@ const Browlift = () => {
         Boka Nu
         </a>
     </div>
-    </div>
+    </div> </div>
     
 <div className="max-w-7xl mx-auto px-4 mt-25 mb-30">
     <div className="bg-gray-100 shadow-lg rounded-lg p-6 md:p-8  md:px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
@@ -40,6 +42,7 @@ const Browlift = () => {
 
     </div>
     </div>
+   
   );
 };
 export default Browlift;

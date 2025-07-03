@@ -23,6 +23,7 @@ const BBGlow = () => {
         BB Glow är en hudförbättrande behandling som kombinerar microneedling-teknik med infärgande serum som innehåller pigment, vitaminer och hudvårdande ämnen. Behandlingen ger huden en jämnare ton, ökad lyster och en effekt som påminner om ett tunt lager BB-kräm – men utan makeup. Den passar utmärkt för att dölja ojämn hudton, rodnad, pigmentfläckar och ge en "glow-effekt".
       </p>
       <p>Under behandlingen används en microneedling-penna för att föra in BB Glow-serumet ytligt i huden. Behandlingen är ytlig och nästintill smärtfri. Hudtonen anpassas efter kundens egen nyans för ett naturligt resultat.
+        Behandlingen inleds med en kemisk peeling och avslutas med en kylande aloe vera-mask samt en vårdande aloe vera-kräm.
 </p>
 
       <h3 className="font-semibold text-lg mb-2 mt-8">Att tänka på efter behandlingen:</h3>
