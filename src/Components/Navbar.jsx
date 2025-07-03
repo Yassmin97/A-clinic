@@ -64,7 +64,7 @@ const Navbar = () => {
            
 
             {/* Mobile sidebar (right slide-in menu) */}
-                <div className={`fixed top-0 right-12 h-99 w-50 rounded-xl bg-white/80 shadow-lg z-50 transform transition-transform duration-300 md:hidden ${
+                <div className={`fixed top-0 right-0 h-100 w-64 rounded-xl bg-white/80 shadow-lg z-50 transform transition-transform duration-300 md:hidden ${
                     menuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}>
             <div className="flex flex-col p-6 space-y-4">
@@ -92,7 +92,7 @@ const Navbar = () => {
             href="https://www.bokadirekt.se/places/a-clinic-60706"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#4287f5] text-white px-9 py-2 rounded hover:bg-[#012840] font-semibold"
+            className="bg-[#4287f5] text-white px-9 py-2 rounded hover:bg-[#012840] font-semibold w-max mx-auto"
         >
             Boka Tid
         </a>

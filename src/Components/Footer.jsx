@@ -3,15 +3,15 @@ import { FiMapPin, FiMail, FiPhone, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-black px-8 py-12">
-      <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8'>
+    <footer className="bg-gray-100 text-black px-6 py-12">
+      <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-8 sm:text-left'>
         <div>
           <h3 className='font-semibold text-lg mb-2'>A Clinic</h3>
           <ul className='space-y-1'>
             <li><a href="/" className='hover:text-[#4287f5]'>Hem</a></li>
             <li><Link to="/Behandling/Microneedling" className='hover:text-[#4287f5]'>Behandling</Link></li>
-            <li><a href="/About" className='hover:text-[#4287f5]'>Om oss</a></li>
-            <li><a href="/Contact" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
+            <li><a href="/About#info" className='hover:text-[#4287f5]'>Om oss</a></li>
+            <li><a href="/Contact#info" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
           </ul>
         </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       
-      <div className='border-t border-gray-700 mt-8 pt-4 flex-col md:flex-row- items-center justify-between'>
+      <div className='border-t border-gray-700 mt-8 pt-4 flex flex-col md:flex-row- items-center justify-between text-center md:text-left gap-2'>
         <p className='text-sm text-gray-400'>
           © Copyright {new Date().getFullYear()} - A Clinic | All rights reserved  
         </p>

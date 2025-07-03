@@ -11,7 +11,7 @@ const Microneedling = () => {
     <div>
     <div className="w-full h-138 bg-cover bg-[center_top_40%] bg-no-repeat" style={{backgroundImage: `url('/micro4.jpeg')`}}>
         
-    <div className="bg-black/35 w-full h-138 px-30 py-34 md:py-40 sm:px-30 sm:py-40 flex flex-col justify-center">
+    <div className="bg-black/35 w-full h-138 px-6 py-20 md:py-40 md:px-30 flex flex-col justify-center md:text-left">
       <h1 className="text-4xl md:text-5xl font-bold pt-17 text-white mb-6 text-center sm:text-left">Microneedling + kemisk peeling</h1>
     <div className="text-center sm:text-left">
 
@@ -23,7 +23,7 @@ const Microneedling = () => {
     </div>
     
 <div className="max-w-7xl mx-auto px-4 mt-25">
-    <div className="bg-gray-100 shadow-lg rounded-lg p-6 md:p-10 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    <div className="bg-gray-100 shadow-lg rounded-lg p-4 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
       <div className="w-full md:w-[100%]">
       <h2 className="font-semibold text-lg mb-4">Hur går behandlingen till?</h2>
       <p className="mb-6">
@@ -55,16 +55,16 @@ Vi inleder alltid med en kemisk peeling för att optimera hudens upptagningsför
     </div>
 
 {/* Responsive image + CTA */}
-    <div className="flex flex-col items-center mt-4 md:mt-0 rounded overflow-hidden pl-20">
-        <img src="/micro6.jpeg" alt="micro6" className="rounded-lg shadow-md w-90 h-auto mt-20 max-w-sm mb-6" />
-            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#4287f5] hover:text-white py-3 px-6 rounded transition ml-30 mt-10">
+    <div className="flex flex-col items-center mt-4 md:mt-0 rounded px-4 md:pl-20">
+        <img src="/micro6.jpeg" alt="micro6" className="rounded-lg shadow-md w-60 sm:w-60 md:w-90 h-auto mt-20 max-w-sm mb-6" />
+            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="mt-6 inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#4287f5] hover:text-white py-3 px-6 rounded transition mb-6">
         Boka Nu
         </a>
     </div>
     </div>
 
   <section
-  className="bg-fixed bg-cover bg-center text-black text-left py-40 px-4 mt-30 relative"
+  className="bg-fixed bg-cover bg-center text-black text-left py-20 sm:py-40 sm:px-10 px-4 mt-20 relative"
   style={{ 
     backgroundImage: "url('/bb.glow.jpeg')",
     width: "100vw",
@@ -107,7 +107,7 @@ Vi inleder alltid med en kemisk peeling för att optimera hudens upptagningsför
 
     <div className="mt-16 px-6">
         <h2 className="text-2xl font-semibold mb-4 text-center mt-30">Fler bilder från behandlingen</h2>
-        <div className="flex overflow-x-auto whitespace-nowrap space-x-5 pb-4 mb-30 mt-15 scroll-smooth">
+        <div className="flex overflow-x-auto space-x-5 pb-4 -mx-4 mb-30 mt-15 snap-x snap-mandatory scroll-smooth">
           <img src="/micro.jpeg" alt="micro" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
           <img src="/micro3.jpeg" alt="micro" className="rounded-lg shadow w-60 h-auto flex-shrink-0" />
           <img src="/microneedling.jpeg" alt="micro" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
