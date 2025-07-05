@@ -44,7 +44,7 @@ const Navbar = () => {
             {dropDownOpen && (              
                 <div className="absolute left-0 w-48 bg-white border rounded shadow-lg z-50">
                 <Link to="/Behandling/Microneedling" onClick={closeDropDown} className="text-sm block px-4 py-2 hover:bg-gray-100">Microneedling</Link>
-                <Link to="/Behandling/BB Glow" onClick={closeDropDown} className="text-sm block px-4 py-2 hover:bg-gray-100">BB Glow</Link>
+                <Link to="/Behandling/BBGlow" onClick={closeDropDown} className="text-sm block px-4 py-2 hover:bg-gray-100">BB Glow</Link>
                 <Link to="/Behandling/LashLift" onClick={closeDropDown} className="text-sm block px-4 py-2 hover:bg-gray-100">LashLift</Link>
                 <Link to="/Behandling/BrowLift" onClick={closeDropDown} className="text-sm block px-4 py-2 hover:bg-gray-100">BrowLift</Link>
  

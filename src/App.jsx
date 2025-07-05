@@ -25,7 +25,7 @@ function App() {
             <Route path='/About' element={<About />}/>
             <Route path='/Contact' element={<Contact />}/>
             <Route path='/Behandling/Microneedling' element ={<Microneedling />} />
-            <Route path='/Behandling/BBGlow' element ={<BBGlow />} />
+            <Route path='/Behandling/BBGlow' element={<BBGlow />} />
             <Route path='/Behandling/Lashlift' element ={<LashLift />} />
             <Route path='/Behandling/Browlift' element ={<BrowLift />} /> 
           </Routes>
