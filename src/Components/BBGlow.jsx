@@ -6,7 +6,7 @@ const BBGlow = () => {
     <div>
     <div className="w-full h-138 bg-cover bg-[center_top_60%] bg-no-repeat" style={{backgroundImage: `url('/bb.glow.jpeg')`}}>
         
-    <div className="bg-black/35 w-full h-138 px-30 py-34 md:py-40">
+    <div className="bg-black/35 w-full h-138 px-6 md:px-30 py-34 md:py-40">
       <h1 className="text-4xl md:text-5xl font-bold pt-17 text-white mb-6">BB Glow</h1>
 
     <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="mt-6 inline-block bg-white text-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition">
@@ -40,9 +40,9 @@ const BBGlow = () => {
 </div>
     </div>
 
-    <div className="rounded overflow-hidden pl-20">
-        <img src="/bb.glow..jpeg" alt="bbglow" className="rounded-lg shadow-md w-110 h-auto" />
-            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition ml-40 mt-10">
+    <div className="rounded overflow-hidden md:pl-20 pl-4 mt-10">
+        <img src="/bb.glow..jpeg" alt="bbglow" className="rounded-lg shadow-md md:w-110 h-auto" />
+            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-40 mt-6 ml-25 md:mt-10 md:w-auto text-center">
         Boka Nu
         </a>
     </div>
