@@ -16,7 +16,7 @@ const BBGlow = () => {
     </div>
     
 <div className="max-w-7xl mx-auto px-4 mt-25">
-    <div className="bg-gray-100 shadow-lg rounded-lg p-6 md:p-8  md:px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+    <div className="bg-gray-100 shadow-lg rounded-lg p-6 md:p-8 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
       <div className="w-full md:w-[100%]">
       <h2 className="font-semibold text-lg mb-4">Hur går behandlingen till?</h2>
       <p className="mb-6">
@@ -41,7 +41,7 @@ const BBGlow = () => {
     </div>
 
     <div className="rounded overflow-hidden md:pl-20 pl-4 mt-10">
-        <img src="/bb.glow..jpeg" alt="bbglow" className="rounded-lg shadow-md md:w-110 h-auto" />
+        <img src="/bb.glow..jpeg" alt="bbglow" className="rounded-lg shadow-md md:w-[28rem] w-full h-auto" />
             <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-40 mt-6 ml-25 md:mt-10 md:w-auto text-center">
         Boka Nu
         </a>
