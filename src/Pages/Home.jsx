@@ -43,7 +43,7 @@ const Home = () => {
                     <p className="text-sm mb-3"> Stimulerar hudens kollagenproduktion för en jämnare, fastare hud.</p>
                 </div></Link>
 
-            <Link to="/Behandling/BB Glow" className="block">
+            <Link to="/Behandling/BBGlow" className="block">
                 <div className="bg-gray-100 rounded-lg shadwo p-2 text-center">
                     <img src="/bb.glow.jpeg" alt="BB Glow" className="w-full h-65 object-cover object-bottom rounded mb-4" />
                     <h4 className="text-xl font-semibold mb-2">BB Glow</h4>
