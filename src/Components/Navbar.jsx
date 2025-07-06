@@ -79,7 +79,7 @@ const Navbar = () => {
             {dropDownOpen && (
                 <div className="ml-4 mt-1 space-y-1">
                     <Link to="/Behandling/Microneedling" onClick={() => { closeDropDown(); toggleMenu(); }} className="text-sm block hover:text-[#4287f5]">Microneedling</Link>
-                    <Link to="/Behandling/BB Glow" onClick={() => { closeDropDown(); toggleMenu(); }} className="text-sm block hover:text-[#4287f5]">BB Glow</Link>
+                    <Link to="/Behandling/BBGlow" onClick={() => { closeDropDown(); toggleMenu(); }} className="text-sm block hover:text-[#4287f5]">BB Glow</Link>
                     <Link to="/Behandling/LashLift" onClick={() => { closeDropDown(); toggleMenu(); }} className="text-sm block hover:text-[#4287f5]">LashLift</Link>
                     <Link to="/Behandling/BrowLift" onClick={() => { closeDropDown(); toggleMenu(); }} className="text-sm block hover:text-[#4287f5]">BrowLift</Link>
                 </div>
