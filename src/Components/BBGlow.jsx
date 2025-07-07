@@ -42,7 +42,7 @@ const BBGlow = () => {
 
     <div className="rounded overflow-hidden md:pl-20 pl-4 mt-10">
         <img src="/bb.glow..jpeg" alt="bbglow" className="rounded-lg shadow-md md:w-[28rem] w-full h-auto" />
-            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-40 mt-6 ml-25 md:mt-10 md:w-auto text-center">
+            <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-40 mt-6 ml-22 md:mt-10 md:w-auto text-center">
         Boka Nu
         </a>
     </div>

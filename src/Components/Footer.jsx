@@ -10,8 +10,8 @@ const Footer = () => {
           <ul className='space-y-1'>
             <li><a href="/" className='hover:text-[#4287f5]'>Hem</a></li>
             <li><Link to="/Behandling/Microneedling" className='hover:text-[#4287f5]'>Behandling</Link></li>
-            <li><a href="/About#info" className='hover:text-[#4287f5]'>Om oss</a></li>
-            <li><a href="/Contact#info" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
+            <li><a href="/About" className='hover:text-[#4287f5]'>Om oss</a></li>
+            <li><a href="/Contact" className='hover:text-[#4287f5]'>Kontakta oss</a></li>
           </ul>
         </div>
 
