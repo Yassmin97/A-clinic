@@ -1,9 +1,12 @@
 import { FiMapPin, FiMail, FiPhone, FiInstagram, FiClock } from "react-icons/fi";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const location = useLocation();
+  const form = useRef();
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   useEffect(() => {
     if(location.hash === "#info"){
@@ -13,6 +16,23 @@ const Contact = () => {
       }
     }
   }, [location]);
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_6tmjewo",     
+      "template_id",    
+      form.current,
+      "WvcBLlEd_V1MUfrC-"     
+    )
+    .then(() => {
+      setShowConfirmation(true);
+      form.current.reset();
+      setTimeout(() => setShowConfirmation(false), 5000);
+})
+
+  };
 
   return (
     <div id="top-contact" className="max-w-6xl mx-auto px-4 sm:px-6 py-20 mt-20 mb-20 rounded-2xl bg-gray-100 text-gray-800">
@@ -24,18 +44,19 @@ const Contact = () => {
         <p className="text-base sm:text-lg font-semibold mb-4 sm:ml-3">
            Har du frågor eller funderingar? Tveka inte att höra av dig!
         </p>
-        <form className="space-y-6 bg-white p-6 sm:p-6 rounded shadow">
+
+        <form ref={form} onSubmit={sendEmail} className="space-y-6 bg-white p-6 sm:p-6 rounded shadow">
           <div>
             <label className="block font-bold pb-1 sm:pb-2">Namn</label>
-            <input type="text" className="w-full border border-gray-300 rounded px-4 py-2" required />
+            <input name="name" type="text" className="w-full border border-gray-300 rounded px-4 py-2" required />
           </div>
           <div>
             <label className="block font-bold mb-2">E-post</label>
-            <input type="email" className="w-full border border-gray-300 rounded px-4 py-2" required />
+            <input name="email" type="email" className="w-full border border-gray-300 rounded px-4 py-2" required />
           </div>
           <div>
             <label className="block font-bold mb-2">Meddelande</label>
-            <textarea rows="5" className="w-full border border-gray-300 rounded px-4 py-2" required></textarea>
+            <textarea name="message" rows="5" className="w-full border border-gray-300 rounded px-4 py-2" required></textarea>
           </div>
           <button
             type="submit"
@@ -44,6 +65,15 @@ const Contact = () => {
             Skicka
           </button>
         </form>
+        {showConfirmation && (
+  <div className="fixed inset-0 flex items-center justify-center z-50">
+    <div className="bg-white border border-green-600 shadow-xl px-6 py-4 rounded-lg text-center">
+      <p className="text-green-600 font-bold text-lg">✅ Ditt meddelande har skickats!</p>
+    </div>
+  </div>
+)}
+
+
 </div>
         {/* Info + Map */}
         {/* Contact Info & Map */}
