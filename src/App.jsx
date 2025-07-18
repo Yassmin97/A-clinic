@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import ScrollToTop from './Components/ScrollToTop';
 import Microneedling from './Components/Microneedling';
 import BBGlow from './Components/BBGlow';
 import LashLift from './Components/Lashlift';
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <Router>
+     <ScrollToTop />
       <div className='min-h-screen flex flex-col'>
         <Navbar />
         <div className='flex-grow'>
