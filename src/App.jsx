@@ -1,26 +1,28 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { lazy, Suspense } from "react";
+import Home from './Pages/Home';
 import Behandling from './Pages/Behandling'
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import ScrollToTop from './Components/ScrollToTop';
-import Microneedling from './Components/Microneedling';
-import BBGlow from './Components/BBGlow';
-import LashLift from './Components/Lashlift';
-import BrowLift from './Components/Browlift';
 import CookieBanner from './Components/CookieBanner';
+
+const Microneedling = lazy(() => import('./Components/Microneedling'));
+const BBGlow = lazy(() => import('./Components/BBGlow'));
+const LashLift = lazy(() => import('./Components/Lashlift'));
+const BrowLift = lazy(() => import('./Components/Browlift'));
 
 
 function App() {
-
   return (
     <Router>
      <ScrollToTop />
       <div className='min-h-screen flex flex-col'>
-        <Navbar />
-        <div className='flex-grow'>
+      <Navbar /> 
+      <div className='flex-grow'>
+      <Suspense fallback={<div>Laddar sidan...</div>}>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/Behandling' element={<Behandling />}/>
@@ -31,13 +33,13 @@ function App() {
             <Route path='/Behandling/Lashlift' element ={<LashLift />} />
             <Route path='/Behandling/Browlift' element ={<BrowLift />} /> 
           </Routes>
-          <CookieBanner />
-        </div>
-         
-        <Footer/>
-       </div>         
+      </Suspense>
+      <CookieBanner />
+      </div>
+      <Footer/>  
+      </div>     
     </Router>
   )
 }
 
-export default App
+export default App;

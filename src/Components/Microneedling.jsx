@@ -108,10 +108,10 @@ Vi inleder alltid med en kemisk peeling för att optimera hudens upptagningsför
     <div className="mt-16 px-6">
         <h2 className="text-2xl font-semibold mb-4 text-center mt-30">Fler bilder från behandlingen</h2>
         <div className="flex overflow-x-auto space-x-5 pb-4 -mx-4 mb-30 mt-15 snap-x snap-mandatory scroll-smooth">
-          <img src="/micro.jpeg" alt="micro" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
-          <img src="/micro3.jpeg" alt="micro" className="rounded-lg shadow w-60 h-auto flex-shrink-0" />
-          <img src="/microneedling.jpeg" alt="micro" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
-          <img src="/micro5.jpeg" alt="micro" className="rounded-lg shadow w-65 h-auto flex-shrink-0" />
+          <img src="/micro.jpeg" alt="micro" loading="lazy" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
+          <img src="/micro3.jpeg" alt="micro" loading="lazy" className="rounded-lg shadow w-60 h-auto flex-shrink-0" />
+          <img src="/microneedling.jpeg" alt="micro" loading="lazy" className="rounded-lg shadow w-70 h-auto flex-shrink-0" />
+          <img src="/micro5.jpeg" alt="micro" loading="lazy" className="rounded-lg shadow w-65 h-auto flex-shrink-0" />
         </div>
     
     </div>

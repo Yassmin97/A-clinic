@@ -37,7 +37,7 @@ const Browlift = () => {
     </div>
 
     <div className="rounded overflow-hidden md:pl-30 pl-0">
-        <img src="/browlift.jpeg" alt="browlift" className="rounded-lg shadow-md md:w-80 w-full h-auto" />
+        <img src="/browlift.jpeg" alt="browlift" loading="lazy" className="rounded-lg shadow-md md:w-80 w-full h-auto" />
             <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-22 ml-28 mt-6 md:mt-10 md:w-auto">
         Boka Nu
         </a>

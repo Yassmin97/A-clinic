@@ -6,7 +6,7 @@ import Reviews from '../Components/Reviews';
 const Home = () => {
     return (
          <>
-    <div className="w-full aspect-[3/1] bg-cover bg-[center_top_80%] bg-no-repeat" style={{ backgroundImage: "url('/salong-bg.jpeg')" }}>
+    <div className="relative w-full aspect-[3/1] bg-cover bg-[center_top_80%] bg-no-repeat" style={{ backgroundImage: "url('/salong-bg.jpeg')" }}>
     <div className="bg-black/45 w-full h-138 px-20 md:px-20 py-32 md:py-40">
   
       

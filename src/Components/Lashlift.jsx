@@ -38,7 +38,7 @@ const Lashlift = () => {
     </div>
 
     <div className="rounded overflow-hidden mt-10 flex flex-col items-center md:pl-40">
-        <img src="/lashlift2.jpeg" alt="lashlift" className="rounded-lg shadow-md w-72 md:w-80 h-auto" />
+        <img src="/lashlift2.jpeg" alt="lashlift" loading="lazy" className="rounded-lg shadow-md w-72 md:w-80 h-auto" />
             <a href="https://www.bokadirekt.se/places/a-clinic-60706" className="inline-block text-white bg-[#4287f5] font-bold text-lg hover:bg-[#c5c5c5] py-3 px-6 rounded transition md:ml-1 mt-10">
         Boka Nu
         </a>
@@ -52,9 +52,9 @@ const Lashlift = () => {
   </h2>
   <div className="overflow-x-auto pb-4 mb-30 mt-15">
     <div className="flex space-x-4 w-max mx-auto">
-      <img src="/lashlift.jpeg" alt="lashlift" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
-      <img src="/lashlift3.jpeg" alt="lashlift" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
-      <img src="/lashlift4.png" alt="lashlift" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
+      <img src="/lashlift.jpeg" alt="lashlift" loading="lazy" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
+      <img src="/lashlift3.jpeg" alt="lashlift" loading="lazy" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
+      <img src="/lashlift4.png" alt="lashlift" loading="lazy" className="rounded-lg shadow w-64 md:w-70 h-auto flex-shrink-0"/>
     </div>
   </div>
 </div>
